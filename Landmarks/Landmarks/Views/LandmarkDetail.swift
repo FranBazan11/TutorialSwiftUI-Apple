@@ -20,7 +20,7 @@ struct LandmarkDetail: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: <#T##CGFloat?#>) {
                 Text(landmark.name)
                     .font(.title)
                 
